@@ -2,15 +2,13 @@ plugins {
 	id 'java'
 	id 'org.springframework.boot' version '3.5.6-SNAPSHOT'
 	id 'io.spring.dependency-management' version '1.1.7'
+	id 'maven-publish'
+    id 'com.jfrog.artifactory' version '5.2.6' // latest as of 2025
 }
 
 group = 'me.maradabhargavnaidu'
 version = '0.0.1-SNAPSHOT'
 description = 'Gradle-groovy DUMMY'
-
-apply plugin: 'com.jfrog.artifactory'
-apply plugin: 'java'
-apply plugin: 'maven-publish'
 
 java {
 	toolchain {
