@@ -21,9 +21,9 @@ configurations {
 }
 
 repositories {
-	mavenCentral()
+	
 	maven { 
-		url = "http://20.29.26.39:8082/artifactory/artifactory-build-info/"
+		url "http://20.29.26.39:8082/artifactory/artifactory-build-info/"
 		allowInsecureProtocol=true
 	}
 }
