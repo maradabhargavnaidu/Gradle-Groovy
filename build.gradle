@@ -25,8 +25,8 @@ repositories {
 	maven { 
 		url = "http://20.29.26.39:8082/artifactory/artifactory-build-info/"
 		allowInsecureProtocol=true
+	}
 }
-
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
